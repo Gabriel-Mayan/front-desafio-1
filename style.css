@@ -7,7 +7,6 @@
 .inicio
 {
     width: 1464px;
-    height: 2489px;
     
     background-color: #F5F5F5;
 
@@ -52,7 +51,6 @@
 {
     margin-top: 3%;
     width: 1160px;
-    height: 2168px; 
 
     display: flex;
     align-self: center;    
@@ -62,7 +60,6 @@
 .content .main
 {   
     width: 730px;
-    height: 2168px;
 
     border-radius: 1px;
     border-color: rgba(254, 0, 120, 1);
@@ -145,19 +142,7 @@
 
     display: flex;
     align-items: center;
-
 }
-
-.input p
-{
-    color: #545454;
-
-    font-weight: normal;
-    font-size: 14px;
-
-    margin-left: 5%;
-}
-
 .input:hover
 {
     border-color: #FE0078;
@@ -169,7 +154,6 @@
     width: 349px;
     height: auto;
     
-    margin-left: 5%;
     margin-top: 5%;
 
     display: flex;
@@ -191,7 +175,6 @@
 .categorias
 {
     margin-right: 5%;
-    margin-left: 5%;
     margin-bottom: -1%;
 
     border-bottom: 3px dashed #EEEEEE;
@@ -255,7 +238,7 @@
     width: 1440px;
     height: 70px;
 
-    margin-top: auto;
+    margin-top: 5%;
     background: #222222;
 
     display: flex;
@@ -276,29 +259,34 @@
     font-size: 24px;
     color: #000000;
     font-weight: bold;
-
-    margin-left: 5%;
 }
 
+.sub-titulo
+{
+    font-weight: bold;
+    font-size: 16px;    
+}
+
+.titulo-menor
+{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+}
 .data
 {    
-    color: #929292;
-    
+    color: #929292;    
     font-size: 12px;
 
     margin-top: 0;
-    margin-left: 5%;
 }
 
 .paragrafo, .paragrafo2
 {    
     color: #545454;
 
-    font-weight: normal;
     font-size: 14px;
-
-    margin-left: 5%;
-    margin-top: 0;
+    font-weight: normal;
 }
 
 .paragrafo2
@@ -306,5 +294,16 @@
     margin-top: 3%;
 }
 
+.titulo, .sub-titulo, .data, .paragrafo, .paragrafo2, .titulo-menor, .categorias, .agrupamento
+{
+    margin-left: 5%;
+}
 
+.miniatura
+{
+    width: 20px;
+    height: 20px;
+
+    margin-right: 2%;
+}
 
